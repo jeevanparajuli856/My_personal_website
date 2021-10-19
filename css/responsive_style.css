@@ -40,6 +40,23 @@
         color: white;
     }
     /* End of service */
+    /* start of about me  */
+    .about_title {
+        font-size: 3.2rem;
+    }
+    .about_me_wrapper .about_me_text {
+        font-size: 1.7rem;
+    }
+    .about_me_learned {
+        font-size: 2.8rem;
+    }
+    .about_stat_item .stat_name {
+        flex-basis: 95%;
+    }
+    .about_stat_item h2 {
+        font-size: 1.6rem;
+    }
+    /* end of about me  */
 }
 
 
@@ -124,6 +141,32 @@
         color: white;
     }
     /* End of service */
+    /* Start of about me section  */
+    .about_me_wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .about_title {
+        font-size: 3.5rem;
+        margin-bottom: 15px;
+    }
+    .about_me_wrapper .about_me_text {
+        font-size: 1.9rem;
+        margin-right: 30px;
+    }
+    .about_me_wrapper .about_me_text p {
+        padding: 36px;
+    }
+    .about_me_learned {
+        font-size: 2.9rem;
+    }
+    .about_stat_item .stat_name {
+        flex-basis: 88%;
+    }
+    .about_stat_item h2 {
+        font-size: 1.6rem;
+    }
+    /* End of about me section  */
 }
 
 
