@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+:root {}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* start of navigation  */
+
+#navbar {
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#navbar .navigation {
+    width: 99vw;
+    background-color: #131313;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 62px;
+    padding: 7px 15px;
+}
+
+#navbar .logo {
+    width: 99%;
+}
+
+#navbar .nav-item {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    background-color: #131313;
+    width: 99%;
+    margin: 0 auto;
+    display: none;
+}
+
+.nav-item .nav-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item .nav-content li {
+    list-style: none;
+    font-size: 1.6rem;
+    padding: 5px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #FF0000;
+    transition: .5s ease-in;
+    transition-property: all;
+}
+
+.nav-item .nav-content li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.nav-item .nav-content li:hover {
+    background-color: #efe4e0;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
+.nav-item .nav-content li:hover a {
+    color: black;
+}
+
+.nav-item .nav-content li:nth-child(4) {
+    margin-bottom: 0;
+}
+
+#navbar .nav_icon .fa-bars {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+    transition: .3s ease color;
+}
+
+#navbar .nav_icon .fa-bars:hover {
+    color: crimson;
+}
+
+
+/* End of navigation  */
+
+
+/* start of pagination */
+
+#pagination {
+    margin: 0 auto;
+}
+
+#pagination .pagination {
+    width: 99vw;
+    height: 95vh;
+    background-image: url(../image/pagination_bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    overflow: hidden;
+}
+
+#pagination .pagination::after {
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+}
+
+#pagination .pagination_content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pagination .pagination_image img {
+    clip-path: circle(50% at 50% 50%);
+    height: 250px;
+}
+
+.pagination_content .pagination_item {
+    padding: 3px;
+    padding-left: 8px;
+    margin-top: 25px;
+}
+
+.pagination_item h1 {
+    font-size: 2.5rem;
+    color: white;
+    width: max-content;
+    position: relative;
+    padding: 0 3px;
+    margin-bottom: 9px;
+    animation: text_revel 0.5s ease forwards;
+}
+
+.pagination_item h1:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.pagination_item h1:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.pagination_item h1:nth-child(3) {
+    animation-delay: 3s;
+}
+
+.pagination_item h1 span {
+    position: absolute;
+    display: inline-block;
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation: text_revel_box 1s ease-in-out forwards;
+    animation-delay: .5s;
+    color: transparent;
+}
+
+.pagination_item h1:nth-child(1) span {
+    animation-delay: 0.5;
+}
+
+.pagination_item h1:nth-child(2) span {
+    animation-delay: 1.5s;
+}
+
+.pagination_item h1:nth-child(3) span {
+    animation-delay: 2.5s;
+}
+
+.pagination_item p {
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+
+
+/* End  of pagination */
+
+
+/* Start of Keyframe */
+
+@keyframes text_revel_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text_revel {
+    100% {
+        color: white;
+    }
+}
+
+
+/* End of Keyframe */
