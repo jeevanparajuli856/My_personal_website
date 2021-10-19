@@ -1,8 +1,6 @@
 /* start of media query for above 760px */
 
-@media only screen and (min-width: 760px) {
-    /* Start of navigation */
-    /* end of navigation */
+@media only screen and (min-width: 768px) {
     /* start of pagination */
     .pagination_item h1 {
         font-size: 3rem;
@@ -11,7 +9,122 @@
         font-size: 2.1rem;
     }
     /* End of pagination */
+    /* start of service */
+    #my_work .section_title {
+        font-size: 3.1rem;
+    }
+    #my_work .my_work_text {
+        font-size: 1.6rem;
+    }
+    #my_work .work_item_container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #my_work .work_item {
+        background-color: royalblue;
+        width: 330px;
+        height: 335px;
+        margin: 20px 20px 25px 20px;
+    }
+    .work_item h2 {
+        font-size: 3rem;
+    }
+    .work_item .work_button {
+        font-size: 1.9rem;
+        padding: 5px 12px;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: white;
+    }
+    /* End of service */
 }
 
 
-/* End of media query for above 760px */
+/* End of media query for above 768px */
+
+
+/* start of media query for screen above 1024px */
+
+@media only screen and (min-width: 1024px) {
+    /* Start of navigation */
+    #navbar .logo {
+        width: 30%;
+    }
+    #navbar .nav-item {
+        position: static;
+        background-color: #131313;
+        width: 99%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .nav-item .nav-content {
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-item .nav-content li {
+        padding: 10px;
+        margin-bottom: 0;
+        margin-right: 74px;
+        cursor: pointer;
+    }
+    .nav-item .nav-content li:nth-child(4) {
+        margin-right: 0;
+    }
+    #navbar .nav_icon {
+        display: none;
+    }
+    /* end of navigation */
+    /* start of pagination */
+    .pagination_item h1 {
+        font-size: 3.5rem;
+    }
+    .pagination_item p {
+        font-size: 2.5rem;
+    }
+    /* End of pagination */
+    /* start of service */
+    #my_work .section_title {
+        font-size: 3.8rem;
+    }
+    #my_work .my_work_text {
+        font-size: 1.9rem;
+    }
+    #my_work .work_item {
+        background-color: royalblue;
+        width: 443px;
+        height: 370px;
+    }
+    .my_work .item_1 {
+        background-image: url(../image/learn_c_2.jpg);
+    }
+    .my_work .item_2 {
+        background-image: url(../image/learn_git_2.jpg);
+    }
+    .my_work .item_3 {
+        background-image: url(../image/learn_js_2.jpg);
+    }
+    .my_work .item_4 {
+        background-image: url(../image/learn_kali_2.jpg);
+    }
+    .work_item h2 {
+        font-size: 4rem;
+    }
+    .work_item .work_button {
+        font-size: 2.3rem;
+        padding: 5px 12px;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: white;
+    }
+    /* End of service */
+}
+
+
+/* End of media query for screen above 1024px */
