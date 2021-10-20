@@ -26,7 +26,7 @@ a {
 
 .section_title {
     font-size: 2.8rem;
-    font-weight: 500;
+    font-weight: 700;
     width: 100%;
     padding: 5px;
     margin-top: 10px;
@@ -427,19 +427,27 @@ a {
 }
 
 .st_1 i {
-    animation: st_1 3s ease-in forwards;
+    animation: st_1 2s ease-in forwards;
+    animation-play-state: paused;
 }
 
 .st_2 i {
-    animation: st_2 3s ease-in forwards;
+    animation: st_2 2s ease-in forwards;
+    animation-play-state: paused;
 }
 
 .st_3 i {
-    animation: st_3 3s ease-in forwards;
+    animation: st_3 2s ease-in forwards;
+    animation-play-state: paused;
 }
 
 .st_4 i {
-    animation: st_4 3s ease-in forwards;
+    animation: st_4 2s ease-in forwards;
+    animation-play-state: paused;
+}
+
+.st i {
+    animation-play-state: running;
 }
 
 
@@ -470,7 +478,7 @@ a {
         width: 0;
     }
     50% {
-        width: 0;
+        width: 0%;
     }
     100% {
         width: 80%;
@@ -482,7 +490,7 @@ a {
         width: 0;
     }
     50% {
-        width: 0;
+        width: 0%;
     }
     100% {
         width: 95%;
@@ -494,7 +502,7 @@ a {
         width: 0;
     }
     50% {
-        width: 0;
+        width: 0%;
     }
     100% {
         width: 65%;
@@ -506,7 +514,7 @@ a {
         width: 0;
     }
     50% {
-        width: 0;
+        width: 0%;
     }
     100% {
         width: 55%;
