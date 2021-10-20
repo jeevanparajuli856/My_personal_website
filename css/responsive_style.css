@@ -193,6 +193,7 @@
     .about_me_wrapper .about_me_text {
         font-size: 1.9rem;
         margin-right: 30px;
+        flex-basis: 214%;
     }
     .about_me_wrapper .about_me_text p {
         padding: 36px;
