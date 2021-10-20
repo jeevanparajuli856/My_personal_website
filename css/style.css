@@ -240,7 +240,7 @@ a {
 
 #my_work .my_work_text {
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 500;
     text-align: left;
     /* margin-bottom: 35px; */
     padding: 6px;
@@ -383,7 +383,7 @@ a {
 
 .about_me_wrapper .about_me_text {
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
