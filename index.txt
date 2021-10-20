@@ -1,2 +1,12 @@
 rgba(255,133,83,.3);
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+const element = document.getElementById("element-to-be-animated");
+
+element.addEventListener("animationend", () => {
+    // Set your final state here. For example:
+    element.style["opacity"] = 1;
+}, { once: true });
+
+The option once: true tells the engine to remove the event listener after its execution, leaving your application fresh and clean.
+
+I have created a JSFiddle to show how it works.

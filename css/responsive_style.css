@@ -57,6 +57,32 @@
         font-size: 1.6rem;
     }
     /* end of about me  */
+    /* start of blog and news */
+    .blog_wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        overflow: hidden;
+        justify-content: center;
+        padding-left: 25px;
+        gap: 10px;
+        padding-bottom: 0;
+    }
+    .blog_item {
+        min-width: 330px;
+        height: 330px;
+        background-color: yellow;
+        margin-bottom: 0;
+        margin-right: 35px;
+        margin-left: 15px;
+    }
+    .blog_item:nth-child(3) {
+        display: none;
+    }
+    .blog_item_header a {
+        font-size: 2.2rem;
+    }
+    /* End of blog and news */
 }
 
 
@@ -167,6 +193,28 @@
         font-size: 1.6rem;
     }
     /* End of about me section  */
+    /* start of blog and news */
+    .blog_wrapper {
+        padding-left: 25px;
+        gap: 0px;
+    }
+    .blog_item {
+        min-width: 330px;
+        height: 330px;
+        background-color: yellow;
+        margin-bottom: 50px;
+        margin-right: 35px;
+    }
+    .blog_item:nth-child(3) {
+        display: flex;
+    }
+    .blog_item_date {
+        font-size: 1.7rem;
+    }
+    .blog_item_header a {
+        font-size: 2.5rem;
+    }
+    /* End of blog and news */
 }
 
 
