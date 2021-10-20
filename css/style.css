@@ -132,7 +132,7 @@ a {
 #pagination .pagination {
     width: 99vw;
     height: 95vh;
-    background-image: url(../image/new_pagination.jpg);
+    background-image: url(../image/pagination/new_pagination.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -285,19 +285,19 @@ a {
 }
 
 .my_work .item_1 {
-    background-image: url(../image/learn_c_1.jpg);
+    background-image: url(../image/my_work/learn_c_1.jpg);
 }
 
 .my_work .item_2 {
-    background-image: url(../image/learn_git_1.jpg);
+    background-image: url(../image/my_work/learn_git_1.jpg);
 }
 
 .my_work .item_3 {
-    background-image: url(../image/learn_js_1.jpg);
+    background-image: url(../image/my_work/learn_js_1.jpg);
 }
 
 .my_work .item_4 {
-    background-image: url(../image/learn_kali_1.jpg);
+    background-image: url(../image/my_work/learn_kali_1.jpg);
 }
 
 .my_work .work_item span {
@@ -539,6 +539,7 @@ a {
     width: 100%;
     text-align: center;
     color: white;
+    line-height: 32px;
 }
 
 .blog_item:hover .scale {
@@ -551,6 +552,102 @@ a {
 
 
 /* End of blog & news section  */
+
+
+/* start of footer section  */
+
+#footer {
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    padding: 20px;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer_part_1 {
+    padding: 10px;
+}
+
+.footer_part_1 p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: white;
+}
+
+.social_media a {
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    margin: 0 2px;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#hover:hover #hover {
+    background-color: white;
+}
+
+.social_media a i {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.footer_external_link {
+    margin-top: 15px;
+}
+
+.footer_external_link h3 {
+    font-size: 1.8rem;
+    color: rgb(68, 68, 207);
+}
+
+.external_link_list {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.external_link_list li {
+    margin: 5px 0;
+    list-style: none;
+}
+
+.external_link_list li i {
+    font-size: 15px;
+    color: white;
+    margin-right: 4px;
+}
+
+.external_link_list li a {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.copyright {
+    width: 100%;
+}
+
+.copyright p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* End of footer section  */
 
 
 /* Start of Keyframe */

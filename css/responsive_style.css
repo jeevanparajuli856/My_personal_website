@@ -83,6 +83,20 @@
         font-size: 2.2rem;
     }
     /* End of blog and news */
+    /* start of footer section  */
+    .footer_external_link {
+        flex-basis: 24%;
+    }
+    .footer_external_link h3 {
+        font-size: 2.3rem;
+    }
+    .external_link_list li a {
+        font-size: 1.7rem;
+    }
+    .footer_part_1 p {
+        font-size: 1.6rem;
+    }
+    /* End of footer section  */
 }
 
 
@@ -145,16 +159,16 @@
         height: 370px;
     }
     .my_work .item_1 {
-        background-image: url(../image/learn_c_2.jpg);
+        background-image: url(../image/my_work/learn_c_2.jpg);
     }
     .my_work .item_2 {
-        background-image: url(../image/learn_git_2.jpg);
+        background-image: url(../image/my_work/learn_git_2.jpg);
     }
     .my_work .item_3 {
-        background-image: url(../image/learn_js_2.jpg);
+        background-image: url(../image/my_work/learn_js_2.jpg);
     }
     .my_work .item_4 {
-        background-image: url(../image/learn_kali_2.jpg);
+        background-image: url(../image/my_work/learn_kali_2.jpg);
     }
     .work_item h2 {
         font-size: 4rem;
@@ -215,6 +229,30 @@
         font-size: 2.5rem;
     }
     /* End of blog and news */
+    /* start of footer section  */
+    .footer_wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer_part_1 {
+        flex-basis: 50%;
+    }
+    .footer_external_link {
+        flex-basis: 24%;
+    }
+    .footer_external_link h3 {
+        font-size: 2.5rem;
+    }
+    .external_link_list li a {
+        font-size: 1.7rem;
+    }
+    .footer_part_1 p {
+        font-size: 1.7rem;
+    }
+    .copyright p {
+        font-size: 1.7rem;
+    }
+    /* End of footer section  */
 }
 
 
